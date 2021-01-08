@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    background-color: #263e4d;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #263e4d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__imagen {
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.header__menu {
+    margin-right: 38px;
+    display: flex;
+}
+
+header .header__menu--profile ul {
+    display: none;
+    list-style: none;
+    padding: 0px;
+    position: absoluta;
+    width: 100px;
+    text-align: right;
+    margin: 46px 0px 0px -82px;
+    
+}
+.header__menu--profile:hover ul, ul:hover {
+    display: block;
+}
+
+.header__menu--profile li {
+    margin: 10px 0px;
+}
+
+.header__menu--profile li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu--profile {
+    margin-top: 3px;
+    margin-right: 8px;
+    width: 40px;
+    display: flex;
+
+}
+
+header .header__menu--profile img {
+    width: 200px;
+}
+
+header .header__menu--profile .logo__right {
+    background-image: url('/coverage/icons8-usuario-masculino-en-círculo-24.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 48;
+    height: 24px;
+    cursor:pointer;
+    margin: 19px 5px 0px 0px;
+
+ }
